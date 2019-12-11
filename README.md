@@ -12,6 +12,9 @@ Group Members Name(s): Carter Van Ekeren
 - [Dependencies](https://github.com/carter-vanekeren/blogengine/blob/master/requirements.txt)
 - API's
   - Gravatar
+- Heroku (Deployment)
+- VSCode (Editor)
+
 
 ##### Description: 
 Small blog application following steps 1-10 (skipping 11) of the [Miguel Grinberg Flask Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
