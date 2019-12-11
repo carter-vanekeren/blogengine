@@ -7,6 +7,9 @@ Group Members Name(s): Carter Van Ekeren
 
 [Github Repository](https://github.com/carter-vanekeren/blogengine)
 
+### References/Resources
+[Miguel Grinberg Flask Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+
 ### Technologies used
 - Flask Framework (Python)
 - Bootstrap Framework (CSS)
