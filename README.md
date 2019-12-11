@@ -38,4 +38,23 @@ Group Members Name(s): Carter Van Ekeren
 - Explore
   - Shows posts from all registered users.  
 
+### Views
+- Base 
+  - All views inherit from this view.
+  - Contains navigation and flash messages
+- Index
+  - Used for home page and explore page.
+  - Lists posts, deals with pagination and allows user to create posts if on the Home page
+- Error
+  - Defines views for:
+    - 404 
+    - 500
+- Login
+  - Displays login form and a link to register
+- Register
+  - Displays registration form
+- User
+  - Displays user profile page, summary section and a posts listing section
+- Post
+  - Handles view of a post object
 
