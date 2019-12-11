@@ -58,3 +58,22 @@ Group Members Name(s): Carter Van Ekeren
 - Post
   - Handles view of a post object
 
+### Tables 
+- User
+  - Attributes
+     - id
+     - username
+     - email
+     - password_hash
+     - about_me
+     - last_seen
+- Post
+  - Attributes
+    - id
+    - body
+    - timestamp
+    - user_id (author)
+- Followers   
+  - Attributes
+    - follower_id
+    - followed_id
