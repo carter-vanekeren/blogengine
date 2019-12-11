@@ -60,20 +60,23 @@ Group Members Name(s): Carter Van Ekeren
 
 ### Tables 
 - User
+  - Table that represents a user
   - Attributes
-     - id
+     - id (Primary key)
      - username
      - email
      - password_hash
      - about_me
      - last_seen
 - Post
+  - Table that represents a post, has a relationship with user
   - Attributes
     - id
     - body
     - timestamp
-    - user_id (author)
+    - user_id (Foreign key)
 - Followers   
+  - Table that represents followers, self-referential relationship with user
   - Attributes
-    - follower_id
-    - followed_id
+    - follower_id (Foreign key)
+    - followed_id (Foreign key)
